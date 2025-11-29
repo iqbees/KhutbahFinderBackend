@@ -1,0 +1,19 @@
+# Core Framework and Server
+fastapi
+uvicorn
+pydantic
+
+# Semantic Search and Vector Database
+faiss-cpu # or faiss-gpu if a GPU is available
+sentence-transformers
+google-cloud-firestore # for Firestore database access
+
+# Text-to-Speech (TTS)
+google-cloud-texttospeech
+pydub
+
+# Summarization
+google-generativeai # Client library for Gemini
+
+# Utility
+python-dotenv # Recommended for managing environment variables (like API keys)
